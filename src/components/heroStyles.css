@@ -1,0 +1,45 @@
+/* heroStyles.css */
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero-text {
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+.hero-columns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .hero-columns {
+    flex-direction: row;
+  }
+}
+
+.hero-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subject-counter,
+.student-counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+}

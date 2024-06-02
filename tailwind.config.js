@@ -1,9 +1,11 @@
 module.exports = {
   mode: "jit",
-  content: ["./src/**/**/*.{js,ts,jsx,tsx,html,mdx}", "./src/**/*.{js,ts,jsx,tsx,html,mdx}"],
+  content: [
+    "./src/**/**/*.{js,ts,jsx,tsx,html,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,html,mdx}",
+  ],
   darkMode: "class",
   theme: {
-    screens: { md: { max: "1050px" }, sm: { max: "550px" } },
     extend: {
       colors: {
         yellow: { 50: "#fdfff0" },
@@ -17,13 +19,14 @@ module.exports = {
         red: { A200: "#ff6258" },
         blue: { 300: "#61bcff" },
       },
-      boxShadow: {
-        xs: "11.47px 11.47px 1px 0px #bfbfb4",
-        sm: "21px 21px 1px 0px #00000066",
-        md: "6px 6px 1px 0px #0000003f",
-        lg: "4px 4px 1px 0px #8e8f87",
+
+      fontFamily: {
+        "open-sans": ["Open Sans", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
+        "noto-sans": ["Noto Sans", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
-      fontFamily: { spacegrotesk: "Space Grotesk", inter: "Inter" },
       textShadow: { ts: "0px 4px 1px #e7e7e751" },
     },
   },

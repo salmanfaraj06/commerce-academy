@@ -8,7 +8,7 @@ const sizes = {
   "3xl": "text-[72px] font-medium  md:text-[46px]",
   xl: "text-4xl font-bold md:text-[22px] sm:text-[18px]",
   md: "text-[28px] font-medium md:text-[26px] sm:text-[24px]",
-  mypro :" text-center text-[72px] font-medium  md:text-[46px]"
+  mypro: " text-center lg:text-[52px] font-medium md:text-[42px] text-[32px]",
 };
 
 const Text = ({ children, className = "", as, size = "xs", ...restProps }) => {
@@ -16,7 +16,7 @@ const Text = ({ children, className = "", as, size = "xs", ...restProps }) => {
 
   return (
     <Component
-      className={`font-spacegrotesk ${className} ${sizes[size]}`}
+      className={`font-open-sans ${className} ${sizes[size]}`}
       {...restProps}
     >
       {children}
@@ -24,4 +24,4 @@ const Text = ({ children, className = "", as, size = "xs", ...restProps }) => {
   );
 };
 
-export { Text };
+export default Text;
