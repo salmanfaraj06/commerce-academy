@@ -18,9 +18,10 @@ function VisionMissionSmall() {
               <span className="font-extrabold">Vision</span>
             </h1>
             <p className="text-[12px] md:text-[14px] mt-auto font-poppins">
-              To be an exemplary CSR Foundation helping to alleviate poverty,
-              support environmental conservation, and advocate for social
-              justice to contribute to the greater good of society.
+              To be a leading commerce institute, providing exceptional
+              education aligned with Cambridge and Edexcel curriculums, shaping
+              future leaders in business and finance, and contributing to the
+              advancement of global commerce.
             </p>
           </div>
         </div>
@@ -40,9 +41,10 @@ function VisionMissionSmall() {
               <span className="font-extrabold">Mission</span>
             </h1>
             <p className="text-[12px] md:text-[14px] mt-auto font-poppins">
-              To strive to create opportunities for economic independence,
-              enhancing education and healthcare, and promoting sustainable and
-              equitable development.
+              To empower students with comprehensive commerce education,
+              tailored to Cambridge and Edexcel curriculums, fostering economic
+              understanding, enhancing financial literacy, and promoting
+              sustainable and equitable business practices.
             </p>
           </div>
         </div>

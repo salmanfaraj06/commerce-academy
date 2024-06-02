@@ -13,24 +13,24 @@ const ContactUs = () => {
       <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-8">
         {/* Instagram Link */}
         <a
-          href="https://instagram.com/your_instagram_handle"
+          href="https://instagram.com/commerce.academy_"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center space-x-3 text-gray-700 hover:text-black transition-colors duration-300"
         >
           <FaInstagram className="text-2xl sm:text-3xl" />
-          <span className="font-semibold text-base sm:text-lg">@your_instagram_handle</span>
+          <span className="font-semibold text-base sm:text-lg">@commerce.academy_</span>
         </a>
         
         {/* WhatsApp Link */}
         <a
-          href="https://wa.me/your_whatsapp_number"
+          href="https://wa.me/+94743810210"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center space-x-3 text-gray-700 hover:text-black transition-colors duration-300"
         >
           <FaWhatsapp className="text-2xl sm:text-3xl" />
-          <span className="font-semibold text-base sm:text-lg">+1234567890</span>
+          <span className="font-semibold text-base sm:text-lg">+94 743810210</span>
         </a>
       </div>
     </div>

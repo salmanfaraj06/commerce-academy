@@ -36,7 +36,7 @@ function VisionMission() {
 
   return (
     <div className=" max-w-6xl flex justify-center mx-2 md:mx-auto flex-col">
-      <div className="lg:flex items-center justify-center min-h-screen  space-y-6 lg:space-y-0 lg:space-x-6">
+      <div className="lg:flex items-center justify-center min-h-screen  space-y-6 lg:space-y-0 lg:space-x-6 ">
         <div
           style={{
             flex: expanded === 0 && "70%",
@@ -46,7 +46,7 @@ function VisionMission() {
           }}
           onMouseEnter={() => handleMouseEnter(0)}
           onMouseLeave={handleMouseLeave}
-          className="vision_container border-2 border-black-900 rounded-2xl relative h-[60vh] lg:h-[500px] lg:w-[70%] flex flex-col justify-between pointer bg-transparent"
+          className="vision_container shadow-xl border-2 border-black-900 rounded-2xl relative h-[60vh] lg:h-[500px] lg:w-[70%] flex flex-col justify-between pointer bg-transparent"
         >
           <img
             className={`absolute top-5 right-5 mix-blend-difference ${
@@ -64,7 +64,7 @@ function VisionMission() {
             alt="mission image"
             loading="lazy"
           />
-          <div className="relative text-black-900 lg:mt-auto flex flex-col justify-between h-fit mt-auto">
+          <div className="relative shadow-lg text-black-900 lg:mt-auto flex flex-col justify-between h-fit mt-auto">
             <div className="w-[90%] lg:w-[85%] p-5">
               <h1
                 className={`text-[32px] leading-[60px] ${
@@ -79,9 +79,10 @@ function VisionMission() {
                   expanded === 1 && "hidden"
                 }`}
               >
-                To be an exemplary CSR Foundation helping to alleviate poverty,
-                support environmental conservation, and advocate for social
-                justice to contribute to the greater good of society.
+                To be a leading commerce institute, providing exceptional
+                education aligned with Cambridge and Edexcel curriculums,
+                shaping future leaders in business and finance, and contributing
+                to the advancement of global commerce.
               </p>
             </div>
           </div>
@@ -96,7 +97,7 @@ function VisionMission() {
           }}
           onMouseEnter={() => handleMouseEnter(1)}
           onMouseLeave={handleMouseLeave}
-          className="vision_container border-2 overflow-hidden border-black-900 rounded-2xl relative h-[60vh] lg:h-[500px] lg:w-[30%] flex flex-col justify-between pointer bg-transparent"
+          className="vision_container shadow-lg border-2 overflow-hidden border-black-900 rounded-2xl relative h-[60vh] lg:h-[500px] lg:w-[30%] flex flex-col justify-between pointer bg-transparent"
         >
           <img
             className={`absolute top-5 right-5 mix-blend-difference ${
@@ -132,9 +133,10 @@ function VisionMission() {
                 expanded === 1 ? "block" : "hidden"
               }`}
             >
-              To strive to create opportunities for economic independence,
-              enhancing education and healthcare, and promoting sustainable and
-              equitable development.
+              To empower students with comprehensive commerce education,
+              tailored to Cambridge and Edexcel curriculums, fostering economic
+              understanding, enhancing financial literacy, and promoting
+              sustainable and equitable business practices.
             </p>
           </div>
         </div>

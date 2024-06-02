@@ -12,8 +12,8 @@ const HeroSection = () => {
   useEffect(() => {
     let count = initialStudentCount;
     const countInterval = setInterval(() => {
-      if (count > 65) {
-        clearInterval(countInterval); // Stop the interval when count exceeds 65
+      if (count > 47) {
+        clearInterval(countInterval); 
       } else {
         setStudentCount(count);
         count++;

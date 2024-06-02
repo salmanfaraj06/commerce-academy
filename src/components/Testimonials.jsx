@@ -78,9 +78,9 @@ const Testimonials = () => {
 
         {/* Second Column */}
         <p className="text-black md:max-w-[642px] mx-2 sm:mt-0 py-5 text-justify">
-          Join hands with the Ramya Weerakoon Foundation by volunteering,
-          participating in events and promoting our causes. Here’s how you could
-          become a part of our mission in uplifting the local community
+          Hear from our students about their experiences at our institute, the
+          quality of education they received, and how our Cambridge and Edexcel
+          curriculums have prepared them for their future in commerce.
         </p>
       </div>
       {/* Testimonials for medium to large screens */}

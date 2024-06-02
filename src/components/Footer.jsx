@@ -18,8 +18,8 @@ function Footer() {
 
         <div className="lg:flex lg:items-end lg:justify-between">
           <div>
-            <div className="flex justify-center text-teal-600 lg:justify-start">
-              <img src={logo} alt="Your Logo" className="h-24" />
+            <div className="flex justify-center lg:justify-start">
+              <img src={logo} alt="Your Logo" className="h-32 md:-ml-6" />
             </div>
 
             <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-400 lg:text-left">
@@ -74,7 +74,7 @@ function Footer() {
           <div className="flex gap-6">
             <a
               className="text-white transition hover:text-white/75"
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/commerce.academy_"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -84,7 +84,7 @@ function Footer() {
 
             <a
               className="text-white transition hover:text-white/75"
-              href="https://www.whatsapp.com"
+              href="https://wa.me/+94743810210"
               target="_blank"
               rel="noopener noreferrer"
             >
