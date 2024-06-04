@@ -7,30 +7,54 @@ import arrow from "../assets/images/arrow_down_right.png";
 
 const testimonialsData = [
   {
-    testimonial: "This is an amazing school!",
-    profileIcon: profileIconMale,
-    name: "John Doe",
-    school: "XYZ High School",
+    testimonial:
+      "Hello miss, just wanted to let you know that learning with you has been so good that I regret not joining sooner... Now my mind is more broadened and I can easily understand the definitions. I hope that in the future upcoming tests I will be able to gain unexpected results. Thank you so much Miss Amnaa ❤✨",
+    profileIcon: profileIconFemale, // Assuming profileIconFemale for Shearan
+    name: "Shearan",
+    school: "Private Candidate",
   },
   {
-    testimonial: "I love the environment and the teachers!",
-    profileIcon: profileIconFemale,
-    name: "Jane Smith",
-    school: "ABC Middle School",
+    testimonial:
+      "From Accounting Struggles to Success... Despite years of struggling and frequent failures in accounting, I discovered an extraordinary tutor... her remarkably clear teaching style, making what once seemed insurmountable now manageable and even enjoyable.",
+    profileIcon: profileIconMale, // Assuming profileIconMale for Abdullah
+    name: "Abdullah",
+    school: "Srilankan International School Jeddah",
   },
   {
-    testimonial: "I love the environment and the teachers!",
-    profileIcon: profileIconFemale,
-    name: "Jane Smith",
-    school: "ABC Middle School",
+    testimonial:
+      "Hi Miss, Before starting the tuition classes I really struggled with the theory of the Business subject... And most importantly it has really helped me in better time management of past paper practices and helped me to develop my Analysis and Evaluation skills when answering the questions. Additionally the class timings were flexible.",
+    profileIcon: profileIconFemale, // Assuming profileIconFemale for Zainab
+    name: "Zainab Murshid",
+    school: "Arab Unity School Dubai",
   },
   {
-    testimonial: "I love the environment and the teachers!",
-    profileIcon: profileIconFemale,
-    name: "Jane Smith",
-    school: "ABC Middle School",
+    testimonial:
+      "Dear Miss Amnaa thankyou for the time and effort you put toward my lessons every session... We have a long way to acheive and we're getting they're gradually. I must add your optimistic vibe is the biggest reason for my eminent improvement even without attending school. Jazakallah Khair for opening my eyes to great potential and insha'Allah we'll crush the O/L exams",
+    profileIcon: profileIconFemale, // Assuming profileIconFemale for Rafeeda
+    name: "Rafeeda Riyaz",
+    school: "UAE, Private Candidate",
   },
-  // Add more testimonials here
+  {
+    testimonial:
+      "I sincerely thank you for your precious time,support and guidance given to me even though it was the last moment. Alhamdullillah, I was able to improve my answer standards very well. And not only improved, I also gained so much by learning Economics and Business Studies through you.",
+    profileIcon: profileIconFemale, // Assuming profileIconFemale for Aaliyah
+    name: "Aaliyah Ashraff Shafi",
+    school: "Ilma International School",
+  },
+  {
+    testimonial:
+      "I was a student who was scoring low marks in my commerce exams in grade 9 -10 and then I was struggling to focus on my exams .Amnaa teacher explained me that commerce was an easy subject. I joined 5 months before my ordinary level exam and revised all the syllabus which I’ve missed. Whereas I practiced past papers which made me to Improve my failure into success ",
+    profileIcon: profileIconMale, // Assuming profileIconMale for Aasif
+    name: "Aasif Bary",
+    school: "Lyceum International School Panadura",
+  },
+  {
+    testimonial:
+      "I was very weak in my business studies and economics subjects ,as finding it very difficult to learn I used to get very low marks also like 20s and 40s... I thank you alot for improving my knowledge and strengthen my interest towards my studies and continuing the classes for ALs too .",
+    profileIcon: profileIconMale, // Assuming profileIconMale for Raashid
+    name: "Raashid Ali",
+    school: "Lyceum International School Panadura",
+  },
 ];
 
 const Testimonials = () => {
@@ -98,7 +122,7 @@ const Testimonials = () => {
       </div>
 
       {/* Pagination controls for medium to large screens */}
-      <div className="hidden md:flex justify-center items-center space-x-2 mt-4">
+      <div className="hidden md:flex justify-center items-center space-x-2 mt-6">
         <button
           className="px-4 py-2 border border-gray-700 rounded"
           onClick={handlePrevPage}
