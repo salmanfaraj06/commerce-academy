@@ -101,7 +101,7 @@ const Testimonials = () => {
         </div>
 
         {/* Second Column */}
-        <p className="text-black md:max-w-[642px] mx-2 sm:mt-0 py-5 text-justify">
+        <p className="text-black md:max-w-[642px] mx-2 mr-5 md:mr-0 text-sm md:text-lg sm:mt-0 py-5 text-justify">
           Hear from our students about their experiences at our institute, the
           quality of education they received, and how our Cambridge and Edexcel
           curriculums have prepared them for their future in commerce.

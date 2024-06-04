@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Text from "./Text/index";
-import heroImg from "../assets/images/heroImg.png";
+import heroImg from "../assets/images/hero.png";
 
 const subjectsCoveredCount = 3; // Subjects covered count
 const initialStudentCount = 0; // Initial number of students
@@ -13,7 +13,7 @@ const HeroSection = () => {
     let count = initialStudentCount;
     const countInterval = setInterval(() => {
       if (count > 47) {
-        clearInterval(countInterval); 
+        clearInterval(countInterval);
       } else {
         setStudentCount(count);
         count++;
@@ -24,18 +24,22 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between mx-auto max-w-6xl my-24 w-full">
+    <div className="flex flex-col md:flex-row items-center justify-between mx-auto md:max-w-3xl lg:max-w-6xl my-24 w-full">
       {/* First Column */}
       <div className="flex flex-col items-start md:w-1/2 w-full text-center md:text-left">
-        <Text className="text-4xl md:text-5xl text-black-900 mb-4 md:text-left" size="mypro">
-          Welcome to <span className=" font-bold">Commerce Academy</span> !
+        <Text className=" text-black-900 mb-4 md:text-left" size="mypro">
+          Welcome to <span className=" font-bold ">Commerce Academy</span>
         </Text>
-        <Text className="text-lg md:text-xl text-gray-700 my-8 mx-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-          odio. Praesent libero. Sed cursus ante dapibus diam. lorem ipsum dolor
-          sit amet, consectetur adipiscing elit. Integer nec odio. Praesent
-          libero. Sed cursus ante dapibus diam.
+        <Text className="text-gray-700 my-8 mx-2" size="s">
+          Master Commerce with Confidence at Commerce Academy,
+          Empowering students to excel in their Cambridge or Edexcel
+          commerce exams, Commerce Academy offers a supportive and flexible
+          learning environment. Whether you prefer the convenience of online
+          classes or the focus of in-person sessions, our passionate instructors
+          are here to guide you towards success in Business Studies, Economics,
+          and Accounting.
         </Text>
+
         <div className="flex flex-row justify-between my-6 w-full md:w-auto ">
           <div className="flex flex-col items-center md:items-start mr-10">
             <Text className="text-sm md:text-lg text-gray-500">

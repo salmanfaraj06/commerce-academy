@@ -23,7 +23,7 @@ function Footer() {
             </div>
 
             <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-400 lg:text-left">
-              Your company's tagline or description goes here.
+            Mastering Business, Building Success
             </p>
           </div>
 
